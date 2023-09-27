@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --first-color: #212529;
+  --second-color: #9a9c9d;
+  --third-color: #b19973;
+  --hover-sc-color: #fefefe;
+
+  --hover-color: #0f3c4c;
+  --body-bg-color: #212529;
+  --card-bg-color: #212529;
+  --bg-transparent-color: rgba (0, 0, 0, 0.1);
+  --transparent-color-01: rgba (0, 0, 0, 0.1);
+  --transparent-color-02: rgba (106, 89, 209, 0.1);
+
+  --color-filter: invert(1);
+  --box-shadow: 0px 0px 20px rgb(0 0 0/40%);
+
+  --small-font-size: 0.9em;
+  --normal-font-size: 1em;
+  --font-color: #fefefe;
+}
+
+* {
+  background-color: var(--body-bg-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-nav {
+  padding-right: 72px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav a {
+  margin-right: 12px;
+  color: var(--second-color);
+}
+
+.navbar-nav a:hover {
+  color: var(--hover-sc-color);
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: var(--hover-color);
+}
+
+nav {
+  background-color: var(--first-color);
+  box-shadow: var(--box-shadow);
+}
+
+.navbar-brand img {
+  padding-left: 72px;
+  height: 40px;
+  width: 100%;
+}
+
+.carousel-item img {
+  border-radius: 20px;
+}
+
+section {
+  padding-top: 45px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: var(--first-color);
+  border-radius: 20px;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+  background-color: var(--hover-color);
+}
+
+.title1 h2 {
+  background-color: var(--third-color);
+  text-align: center;
+  font-weight: 400;
+  color: var(--font-color);
+  border-radius: 5px;
+}
+
+.card {
+  background-color: var(--card-bg-color);
+  color: var(--card-bg-color);
+  box-shadow: var(--box-shadow);
+}
+
+.card h2{
+  color: var(--font-color);
+}
+
+.card h3{
+  color: var(--font-color);
+}
+
+.card p{
+  color: var(--font-color);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: ease 0.5s;
+}
+
+.card img {
+  background-color: var(--card-bg-color);
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card small {
+  color: var(--font-color);
+  text-align: center;
+}
+
+.card-body {
+  height: 65px;
+}
+
+.footer {
+  box-shadow: var(--box-shadow);
+}
+
+.footer p {
+  color: var(--font-color);
+}
+
+.footer h6 {
+  font-weight: 300;
+  color: var(--font-color);
+}
+
+li a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+li a:hover {
+  color: var(--hover-color);
+}
+
+.copyright p,
+.copyright a {
+  background-color: #0f3c4c;
+  color: var(--font-color);
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
+
+.copyright a:hover {
+  color: var(--body-bg-color);
+}
+
+.terms p {
+  background-color: var(--body-bg-color);
+  color: var(--font-color);
+  font-size: var(--normal-font-size);
+  text-align: justify;
+}
+
+.terms p b {
+  font-size: 2em;
+}
+
+.col-4 .card{
+  border: 1px solid var(--hover-color);
+  background-color: var(--body-bg-color);
+}
+
+.accordion-body{
+  color: var(--font-color);
+}
+
+.accordion-body a img{
+  border-radius: 10px;
+  width: 72px;
+  margin: 0 12px 0 0;
+}
+
+.os p:hover{
+  background-color: aqua;
+}
+
+.os:hover{
+  background-color: aqua;
+}
